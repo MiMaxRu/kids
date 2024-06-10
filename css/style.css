@@ -1,46 +1,46 @@
 @font-face {
-    font-family: "Montserrat";
-    src: local("Montserrat-Regular"),
-        url("../fonts/Montserrat-Regular.woff2") format("woff2"),
-        url("../fonts/Montserrat-Regular.woff") format("woff"),
-        url("../fonts/Montserrat-Regular.ttf") format("ttf");
+  font-family: "Montserrat";
+  src: local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("ttf");
 
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: local("Montserrat-SemiBold"),
-        url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-        url("../fonts/Montserrat-SemiBold.woff") format("woff"),
-        url("../fonts/Montserrat-SemiBold.ttf") format("ttf");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: local("Montserrat-SemiBold"),
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: local("Montserrat-Bold"),
-        url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-        url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
-        url("../fonts/Montserrat-Bold.ttf") format("ttf");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: local("Montserrat-Bold"),
+    url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: local("Montserrat-ExtraBold"),
-        url("../fonts/Montserrat-Black.woff2") format("woff2"),
-        url("../fonts/Montserrat-Black.woff") format("woff"),
-        url("../fonts/Montserrat-ExtraBold.ttf") format("ttf");
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: local("Montserrat-ExtraBold"),
+    url("../fonts/Montserrat-Black.woff2") format("woff2"),
+    url("../fonts/Montserrat-Black.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Сброс свойств CSS */
@@ -49,22 +49,22 @@
 html,
 *::before,
 *::after {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 ul[class],
 ol[class] {
-    padding: 0;
+  padding: 0;
 }
 
 body,
@@ -81,153 +81,151 @@ figcaption,
 blockquote,
 dl,
 dd {
-    margin: 0;
+  margin: 0;
 }
 
 ul[class],
 ol[class] {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    transition: all 0.3s;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 body {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    /* font-size: 0; */
-    line-height: normal;
-    background: #fff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 0; */
+  line-height: normal;
+  background: #fff;
 }
-
-
-
-
-
-
-
 
 .container {
-    max-width: 1160px;
-    margin: 0 auto;
-
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
-
 .header {
-    min-height: 980px;
-    background-image: url(../img/Mask\ Group.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  min-height: 980px;
+  background-image: url(../img/Mask\ Group.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__content {
-    padding-top: 102px;
-    width: 500px;
+  display: flex;
+  width: 854px;
+  padding-top: 102px;
 }
 
 .header__logo {
-    width: 161px;
-    
+  margin-right: auto;
+  width: 161px;
 }
 
-
-.nav__list{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 481px;
-    margin-top: 37px ;
-    margin-right: 11px;
-}
-.nav__item-btn{
-    display: inline-block;
-    padding: 10px 15px;
+.header__nav {
+  width: 481px;
 }
 
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 481px;
+  margin-top: 37px;
+  margin-right: 11px;
+  color: white;
+}
+.nav__item-btn {
+  display: inline-block;
+  padding: 10px 15px;
+}
 
+.header__text-image {
+  margin-top: 173px;
+}
 
-
-
-
-
-
+.header__text-text {
+  margin-top: 50px;
+  width: 470px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 143%;
+  color: #eeeced;
+}
 
 .how__list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .how__list-item {
-    display: flex;
-    width: 358px;
-    height: 133px;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  width: 358px;
+  height: 133px;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
 }
 
 .how__item-one {
-    background-image: url("../img/1.png");
+  background-image: url("../img/1.png");
 }
 
 .how__item-two {
-    background-image: url("../img/2\ .png");
+  background-image: url("../img/2\ .png");
 }
 
 .how__item-three {
-    background-image: url("../img/3\ .png");
+  background-image: url("../img/3\ .png");
 }
 
 .how__item-four {
-    background-image: url("../img/4.png");
+  background-image: url("../img/4.png");
 }
 
 .how__item-five {
-    background-image: url("../img/5.png");
+  background-image: url("../img/5.png");
 }
 
 .how__item-six {
-    background-image: url("../img/6.png");
+  background-image: url("../img/6.png");
 }
-
 
 .we__list-item {
-    display: flex;
-    width: 457px;
-    height: 80px;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  width: 457px;
+  height: 80px;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
 }
 
-
 .we__item-one {
-    background-image: url("../img/1.svg");
+  background-image: url("../img/1.svg");
 }
 
 .we__item-two {
-    background-image: url("../img/2\ \(1\).svg");
+  background-image: url("../img/2\ \(1\).svg");
 }
 
 .we__item-three {
-    background-image: url("../img/3\ \(1\).svg");
+  background-image: url("../img/3\ \(1\).svg");
 }
 
 .we__item-four {
-    background-image: url("../img/4\ \(1\).png");
+  background-image: url("../img/4\ \(1\).png");
 }
 
 .we__item-five {
-    background-image: url("../img/5.svg");
+  background-image: url("../img/5.svg");
 }
